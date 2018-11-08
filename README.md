@@ -110,7 +110,7 @@ val mockPersonWriter = object : PersonReader {
 
 // pass the double to a collaborator and exercise its interaction
 
-spyPersonWriter.verify()
+mockPersonWriter.verify()
 ```
 
 ### Fakes
