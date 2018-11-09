@@ -6,7 +6,7 @@ It was popular with my team, so I decided to rewrite it from scratch and open so
 I'd recommend reading this page first, but here's the line for your build.gradle:
 
 ```
-compile 'io.poyarzun:bymock:1.0.0'
+compile 'io.poyarzun:bymock:1.0.1'
 ```
 
 ## Background

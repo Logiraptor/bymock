@@ -8,16 +8,15 @@ plugins {
 }
 
 group = "io.poyarzun"
-version = "1.0.0"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
 }
 
 dependencies {
-    compile(kotlin("stdlib-jdk8"))
-    compile(kotlin("test"))
-    compile(kotlin("test-junit"))
+    testImplementation(kotlin("test"))
+    testImplementation(kotlin("test-junit"))
 }
 
 tasks.withType<KotlinCompile> {
@@ -45,7 +44,7 @@ publishing {
 
             pom {
                 name.set("ByMock")
-                description.set("A tiny library for mocking in kotlin")
+                description.set("A tiny tiny library for mocking in kotlin")
                 url.set("https://github.com/Logiraptor/bymock")
                 licenses {
                     license {
