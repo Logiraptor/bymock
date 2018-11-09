@@ -3,6 +3,12 @@
 This library is inspired by some work I did on a recent project at work.
 It was popular with my team, so I decided to rewrite it from scratch and open source it.
 
+I'd recommend reading this page first, but here's the line for your build.gradle:
+
+```
+compile 'io.poyarzun:bymock:1.0.0'
+```
+
 ## Background
 
 When writing automated tests - hopefully through TDD, you often need test doubles.
